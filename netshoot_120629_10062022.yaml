@@ -2,7 +2,6 @@
 kind: "Deployment"
 apiVersion: "apps/v1"
 metadata:
-  annotations: {}
   name: "netshoot"
   labels:
     app.kubernetes.io/name: "netshoot"
