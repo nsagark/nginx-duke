@@ -7,7 +7,7 @@ metadata:
     app.kubernetes.io/name: "netshoot"
     app.kubernetes.io/component: "deployment.netshoot"    
 spec:
-  replicas: 0
+  replicas: 1
   revisionHistoryLimit: 5
   selector:
     matchLabels:
