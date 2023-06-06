@@ -3,3 +3,7 @@ clusterPatches:
      kind: Cluster
      name: calico-test-new
      kustomizePatch: overlays/calico-test-new
+- target:
+     kind: Cluster
+     name: crossplane-eks-1
+     kustomizePatch: overlays/crossplane-eks-1
