@@ -1,0 +1,5 @@
+clusterPatches:
+- target:
+     kind: Cluster
+     name: calico-test-new
+     kustomizePatch: overlays/calico-test-new
